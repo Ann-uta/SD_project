@@ -1,0 +1,37 @@
+/* variables */
+
+:root {
+    /* colors */
+    --main-font-color: #262626;
+    --cart-font-color: #26262680;
+    --additional-font-color: #FFFFFF;
+    --black-font-color: #000000;
+    --cart-text-color: rgba(255, 255, 255, 0.7);
+    --cart-icon-color: #FDFDFD;
+    --header-font-color: #686868;
+    --box-shadow-color: rgba(0, 0, 0, 0.05);
+    --button-background-color: #BD7048;
+    --numbers-font-color: rgba(189, 112, 72, 0.2);
+    --border-line-color: #9F3535;
+    --design-line-color: #CBCBCB;
+    --design-room-color: #353535;
+    --design-button-color: #FAFAFA;
+    --hover-line-color: rgba(30, 30, 226, 0.864);
+    --order-part-background: #FFF6F1;
+    --cart-font-hover: rgba(0, 0, 0, 0.502);
+    --cart-additional-items: rgba(55, 55, 55, 0.502);
+    --credit-font-color: #f14635;
+    --pay-button-color: #ffddcb;
+    --sample-button-color: #FFDBC9;
+    --return-font-color: rgba(40, 40, 40, 0.702);
+    --mobile-background-color: #FFF0E9;
+    --price-title-backgound: #DB916B;
+    --price-background-color: #E5E5E5;
+
+    /* colors */
+
+    /* fonts */
+    --main-font-family: 'Montserrat Alternates', sans-serif;
+    --add-font-family: 'Montserrat', sans-serif;
+    /* fonts */
+}

@@ -1,0 +1,77 @@
+/* styles for cart.html */
+
+/* normalize.css */
+@import url(https://necolas.github.io/normalize.css/latest/normalize.css);
+
+/* variables and general */
+@import url(../styles/_variables.css);
+@import url(../styles/_general.css);
+
+/* main part */
+@import url(../styles/_cart_main.css);
+
+/* header */
+@import url(../styles/_header.css);
+
+/* footer */
+@import url(../styles/_footer.css);
+
+
+/* media queries */
+@media screen and (max-width:1150px) {
+
+    .order,
+    .note {
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .btn {
+        margin-left: 1.56rem;
+    }
+
+    .main-items {
+        padding: 2rem 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .note {
+        display: none;
+    }
+
+    .main-items__details {
+        margin-left: -25px;
+    }
+
+    .left__title {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .main-items__price {
+        font-size: 0.9rem;
+    }
+
+    .additional__item {
+        font-size: 1rem;
+    }
+
+    .styles__items {
+        font-size: 0.9rem;
+    }
+
+    .main-items__title,
+    .order__items {
+        font-size: 0.9rem;
+    }
+
+    .main-items__details {
+        font-size: 0.7rem;
+    }
+
+    .order__price {
+        font-size: 0.9rem;
+    }
+}
