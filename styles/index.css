@@ -8,7 +8,7 @@
 @import url(../styles/_general.css);
 
 /* header */
-@import url("../styles/_header.css");
+@import url("./styles/_header.css");
 
 /* main part */
 @import url(../styles/_index_main.css);
