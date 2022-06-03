@@ -1,22 +1,33 @@
 /* header styles */
 
 .header-container {
-    width: auto;
+    width: 90%;
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 0.9375rem;
+    justify-content: space-between;
+    padding-top: 46px;
+    padding-bottom: 32px;
+    height: 110px;
+    font-size: 15px;
     color: var(--black-font-color);
     background-color: var(--additional-font-color);
+
 }
+
+/*#menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 2vh;
+    display: flex;
+}*/
 
 .header-container__nav {
     display: flex;
     transition-duration: 1s;
 }
+
 
 .header-container__nav a {
     margin-left: 25px;
@@ -25,7 +36,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    line-height: 10px;
+    line-height: 18px;
     color: var(--cart-font-hover);
     text-decoration: none;
     text-align: end;
@@ -98,7 +109,14 @@
     color: var(--button-background-color);
 }
 
+/*#burger,
+[for=burger] {
+    display: none;
+}*/
+
+
 @media screen and (max-width:767px) {
+
     .header-container__phone {
         display: none;
     }
@@ -111,4 +129,57 @@
         justify-content: center;
         align-items: center;
     }
+
+    /*test burger*/
+
+    /*[for=burger] {
+        display: block;
+        position: fixed;
+        width: 30px;
+        text-align: center;
+        right: 20px;
+        top: 10px;
+    }
+
+    [for=burger]::before {
+        content: '☰';
+    }
+
+    .header-container__nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        margin-bottom: 30px;
+        background: var(--price-background-color);
+        opacity: 0.692;
+        width: 80%;
+        user-select: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    .decor {
+        display: none;
+    }
+
+    #burger:checked+[for=burger]+.header-container__nav {
+        display: block;
+        animation: show 0.5s ease;
+    }
+
+    #burger:checked+[for=burger]::before {
+        content: '🞪';
+    }*/
 }
+
+/*@keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}*/

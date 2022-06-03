@@ -8,7 +8,9 @@
 
 .return {
     text-align: end;
-    margin-top: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 .return__a {
@@ -69,6 +71,7 @@
     font-size: 0.9375rem;
     line-height: 1rem;
     border: none;
+    transition-duration: 0.7s;
 }
 
 .btn__item_pre {
@@ -78,6 +81,7 @@
 
 .btn__item_pre:hover,
 .btn__item_pay:hover {
+    transition-duration: 1s;
     color: var(--button-background-color);
     background-color: var(--design-button-color);
 }
@@ -102,6 +106,7 @@
 }
 
 .btn__item_credit:hover {
+    transition-duration: 1s;
     color: var(--credit-font-color);
     background-color: var(--design-button-color);
 }
